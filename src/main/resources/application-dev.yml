@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:coursesdb
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: sa
+    url: jdbc:postgres://ec2-3-219-19-205.compute-1.amazonaws.com:5432/d6f2qv4f1nugta
+    driver-class-name: org.postgresql.Driver
+    username: dfgmqgaudefakk
+    password: b601b25f46e85a79c309c0cdadeb6101f7701aeb933e26f3680125e3db2ad689
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
