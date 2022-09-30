@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /poli/api/v1
+  port: 8080
+spring:
+  application:
+    name: courses-app
+  profiles:
+    active: dev
